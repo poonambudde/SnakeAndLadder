@@ -7,7 +7,8 @@ namespace SnakeAndLadder
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Welcome to Snake And Ladder Game");
+            int position = 0;
+            Console.WriteLine(" Player at start position : " + position);
         }
     }
 }
