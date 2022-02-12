@@ -8,7 +8,10 @@ namespace SnakeAndLadder
         {
 
             int position = 0;
-            Console.WriteLine(" Player at start position : " + position);
+            Random random = new Random();
+
+            int noOnDie = random.Next(1, 7);
+            Console.WriteLine($"No on die : {noOnDie}");
         }
     }
 }
